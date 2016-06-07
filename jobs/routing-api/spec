@@ -54,6 +54,9 @@ properties:
     description: "Host to ping for confirmation of DNS resolution"
     default: consul.service.cf.internal
 
+  uaa.token_endpoint:
+    decsription: "UAA token endpoint host name"
+    default: uaa.service.cf.internal
   uaa.tls_port:
     description: "Secure Port on which UAA is running."
 
